@@ -14,6 +14,7 @@
 		27477C7429DC6D3500800E56 /* HelloSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C7329DC6D3500800E56 /* HelloSwiftUITests.swift */; };
 		27477C7E29DC6D3500800E56 /* HelloSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C7D29DC6D3500800E56 /* HelloSwiftUIUITests.swift */; };
 		27477C8029DC6D3500800E56 /* HelloSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C7F29DC6D3500800E56 /* HelloSwiftUIUITestsLaunchTests.swift */; };
+		27477C8D29DCEA0600800E56 /* MyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C8C29DCEA0600800E56 /* MyContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		27477C7929DC6D3500800E56 /* HelloSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27477C7D29DC6D3500800E56 /* HelloSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIUITests.swift; sourceTree = "<group>"; };
 		27477C7F29DC6D3500800E56 /* HelloSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27477C8C29DCEA0600800E56 /* MyContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		27477C6129DC6D3400800E56 /* HelloSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				27477C8E29DCEA1C00800E56 /* MyContent */,
 				27477C6229DC6D3400800E56 /* HelloSwiftUIApp.swift */,
 				27477C6429DC6D3400800E56 /* ContentView.swift */,
 				27477C6629DC6D3500800E56 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				27477C7F29DC6D3500800E56 /* HelloSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = HelloSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		27477C8E29DCEA1C00800E56 /* MyContent */ = {
+			isa = PBXGroup;
+			children = (
+				27477C8C29DCEA0600800E56 /* MyContentView.swift */,
+			);
+			path = MyContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27477C8D29DCEA0600800E56 /* MyContentView.swift in Sources */,
 				27477C6529DC6D3400800E56 /* ContentView.swift in Sources */,
 				27477C6329DC6D3400800E56 /* HelloSwiftUIApp.swift in Sources */,
 			);
