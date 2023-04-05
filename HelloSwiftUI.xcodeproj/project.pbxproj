@@ -18,6 +18,7 @@
 		27477C9129DD055500800E56 /* StackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C9029DD055500800E56 /* StackContentView.swift */; };
 		27477C9429DD109300800E56 /* AnimalMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C9329DD109300800E56 /* AnimalMarkerView.swift */; };
 		27477C9629DD329000800E56 /* AnimalMarkerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C9529DD329000800E56 /* AnimalMarkerDetail.swift */; };
+		27477C9929DD37D500800E56 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C9829DD37D500800E56 /* BindingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		27477C9029DD055500800E56 /* StackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackContentView.swift; sourceTree = "<group>"; };
 		27477C9329DD109300800E56 /* AnimalMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalMarkerView.swift; sourceTree = "<group>"; };
 		27477C9529DD329000800E56 /* AnimalMarkerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalMarkerDetail.swift; sourceTree = "<group>"; };
+		27477C9829DD37D500800E56 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		27477C6129DC6D3400800E56 /* HelloSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				27477C9729DD37C300800E56 /* Binding */,
 				27477C9229DD107F00800E56 /* ListView */,
 				27477C8F29DD053100800E56 /* Stack */,
 				27477C8E29DCEA1C00800E56 /* Sign */,
@@ -161,6 +164,14 @@
 				27477C9529DD329000800E56 /* AnimalMarkerDetail.swift */,
 			);
 			path = ListView;
+			sourceTree = "<group>";
+		};
+		27477C9729DD37C300800E56 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				27477C9829DD37D500800E56 /* BindingView.swift */,
+			);
+			path = Binding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +306,7 @@
 			files = (
 				27477C8D29DCEA0600800E56 /* SignContentView.swift in Sources */,
 				27477C9129DD055500800E56 /* StackContentView.swift in Sources */,
+				27477C9929DD37D500800E56 /* BindingView.swift in Sources */,
 				27477C9429DD109300800E56 /* AnimalMarkerView.swift in Sources */,
 				27477C6529DC6D3400800E56 /* ContentView.swift in Sources */,
 				27477C9629DD329000800E56 /* AnimalMarkerDetail.swift in Sources */,
