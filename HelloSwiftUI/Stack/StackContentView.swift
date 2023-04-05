@@ -1,10 +1,3 @@
-//
-//  StackContentView.swift
-//  HelloSwiftUI
-//
-//  Created by 김희망 on 2023/04/05.
-//
-
 import SwiftUI
 
 struct StackContentView: View {

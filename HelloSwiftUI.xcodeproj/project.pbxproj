@@ -16,6 +16,8 @@
 		27477C8029DC6D3500800E56 /* HelloSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C7F29DC6D3500800E56 /* HelloSwiftUIUITestsLaunchTests.swift */; };
 		27477C8D29DCEA0600800E56 /* SignContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C8C29DCEA0600800E56 /* SignContentView.swift */; };
 		27477C9129DD055500800E56 /* StackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C9029DD055500800E56 /* StackContentView.swift */; };
+		27477C9429DD109300800E56 /* AnimalMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C9329DD109300800E56 /* AnimalMarkerView.swift */; };
+		27477C9629DD329000800E56 /* AnimalMarkerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C9529DD329000800E56 /* AnimalMarkerDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		27477C7F29DC6D3500800E56 /* HelloSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		27477C8C29DCEA0600800E56 /* SignContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignContentView.swift; sourceTree = "<group>"; };
 		27477C9029DD055500800E56 /* StackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackContentView.swift; sourceTree = "<group>"; };
+		27477C9329DD109300800E56 /* AnimalMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalMarkerView.swift; sourceTree = "<group>"; };
+		27477C9529DD329000800E56 /* AnimalMarkerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalMarkerDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		27477C6129DC6D3400800E56 /* HelloSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				27477C9229DD107F00800E56 /* ListView */,
 				27477C8F29DD053100800E56 /* Stack */,
 				27477C8E29DCEA1C00800E56 /* Sign */,
 				27477C6229DC6D3400800E56 /* HelloSwiftUIApp.swift */,
@@ -147,6 +152,15 @@
 				27477C9029DD055500800E56 /* StackContentView.swift */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		27477C9229DD107F00800E56 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				27477C9329DD109300800E56 /* AnimalMarkerView.swift */,
+				27477C9529DD329000800E56 /* AnimalMarkerDetail.swift */,
+			);
+			path = ListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +295,9 @@
 			files = (
 				27477C8D29DCEA0600800E56 /* SignContentView.swift in Sources */,
 				27477C9129DD055500800E56 /* StackContentView.swift in Sources */,
+				27477C9429DD109300800E56 /* AnimalMarkerView.swift in Sources */,
 				27477C6529DC6D3400800E56 /* ContentView.swift in Sources */,
+				27477C9629DD329000800E56 /* AnimalMarkerDetail.swift in Sources */,
 				27477C6329DC6D3400800E56 /* HelloSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

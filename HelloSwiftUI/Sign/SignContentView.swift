@@ -9,6 +9,7 @@ struct MyContentView: View {
     @State var bornIn = 0
     @State var gender = 0
     
+    
     var resultScript: String{
         if(name.isEmpty){
             return "이름을 입력해주세요"
