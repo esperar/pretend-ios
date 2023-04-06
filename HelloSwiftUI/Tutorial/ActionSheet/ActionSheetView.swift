@@ -10,6 +10,12 @@ import SwiftUI
 struct ActionSheetView: View {
     
     @State var showingSheet: Bool = false
+    @State var actionSheetOption: ActionSheetOption = .isOtherPost
+    
+    enum ActionSheetOption{
+        case isMyPost
+        case isOtherPost
+    }
     
     var body: some View {
         
@@ -28,13 +34,12 @@ struct ActionSheetView: View {
                 Spacer()
                 
                 Button(action: {
+                    actionSheetOption = .isMyPost
                     showingSheet.toggle()
-                }){
+                }) {
                     Image(systemName: "ellipsis")
                 }
-                .actionSheet(isPresented: $showingSheet, content: {
-                    ActionSheet(title: Text("Esperer"))
-                })
+                .actionSheet(isPresented: $showingSheet, content: getActionSheet)
             }
             .padding(.horizontal)
             
@@ -45,17 +50,21 @@ struct ActionSheetView: View {
         
     func getActionSheet() -> ActionSheet {
         
-        let button1: ActionSheet.Button = .default(Text("김새미".uppercased()))
-        let button2: ActionSheet.Button = .destructive(Text("김하온".uppercased()))
-        let button3: ActionSheet.Button = .cancel()
+        let title = Text("원하는 옵션을 선택해주세요.")
+        let shareButton: ActionSheet.Button = .default(Text("공유"))
+        let reportButton: ActionSheet.Button = .destructive(Text("신고"))
+        let deleteButton: ActionSheet.Button = .destructive(Text("게시물 삭제"))
+        let cancleButton: ActionSheet.Button = .cancel()
         
-        let title = Text("Action Sheet")
-        
-        return ActionSheet(title: title,
-                           message: nil,
-                           buttons: [button1, button2, button3])
-
+        switch actionSheetOption {
+        case .isMyPost:
+            return ActionSheet(title: title, message: nil, buttons: [shareButton, reportButton, deleteButton, cancleButton])
+            
+        case .isOtherPost:
+            return ActionSheet(title: title, message: nil, buttons: [shareButton, reportButton, cancleButton])
         }
+        
+    }
        
 
 }
