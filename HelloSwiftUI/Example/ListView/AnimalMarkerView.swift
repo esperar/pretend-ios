@@ -12,7 +12,8 @@ extension AnimalMarker {
             AnimalMarker(name: "고양이", imageUrl: "cat", numberOfStore: 2000),
             AnimalMarker(name: "고먐미", imageUrl: "car1", numberOfStore: 2100),
             AnimalMarker(name: "데이비드", imageUrl: "snake", numberOfStore: 2200),
-            AnimalMarker(name: "이정우", imageUrl: "snake", numberOfStore: 5000)
+            AnimalMarker(name: "이정우", imageUrl: "snake", numberOfStore: 5000),
+            AnimalMarker(name: "감기약", imageUrl: "medi", numberOfStore: 100)
         ]
     }
 }

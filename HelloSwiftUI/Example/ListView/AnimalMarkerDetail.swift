@@ -25,7 +25,7 @@ struct AnimalMarkerDetail: View {
                
             Text(animalMarker.name)
         }.alert(isPresented: $isPresent, content: {
-            Alert(title: Text("더블 클릭"), message: Text("하셨습니다."), dismissButton: .default(Text("OK")))
+            Alert(title: Text("주문 완료"), message: Text("맛있게 드십시요."), dismissButton: .default(Text("OK")))
         })
     }
 }
