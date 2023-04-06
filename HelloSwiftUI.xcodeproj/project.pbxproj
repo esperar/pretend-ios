@@ -20,6 +20,7 @@
 		27477C9629DD329000800E56 /* AnimalMarkerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C9529DD329000800E56 /* AnimalMarkerDetail.swift */; };
 		27477C9929DD37D500800E56 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C9829DD37D500800E56 /* BindingView.swift */; };
 		27477C9E29DF0F2000800E56 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477C9D29DF0F2000800E56 /* AlertView.swift */; };
+		27477CA129DF857C00800E56 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477CA029DF857C00800E56 /* ActionSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		27477C9529DD329000800E56 /* AnimalMarkerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalMarkerDetail.swift; sourceTree = "<group>"; };
 		27477C9829DD37D500800E56 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		27477C9D29DF0F2000800E56 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		27477CA029DF857C00800E56 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 		27477C9B29DF0F0800800E56 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				27477C9F29DF856B00800E56 /* ActionSheet */,
 				27477C9C29DF0F1100800E56 /* Alert */,
 			);
 			path = Tutorial;
@@ -199,6 +202,14 @@
 				27477C9D29DF0F2000800E56 /* AlertView.swift */,
 			);
 			path = Alert;
+			sourceTree = "<group>";
+		};
+		27477C9F29DF856B00800E56 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				27477CA029DF857C00800E56 /* ActionSheetView.swift */,
+			);
+			path = ActionSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +346,7 @@
 				27477C9129DD055500800E56 /* StackContentView.swift in Sources */,
 				27477C9929DD37D500800E56 /* BindingView.swift in Sources */,
 				27477C9429DD109300800E56 /* AnimalMarkerView.swift in Sources */,
+				27477CA129DF857C00800E56 /* ActionSheetView.swift in Sources */,
 				27477C6529DC6D3400800E56 /* ContentView.swift in Sources */,
 				27477C9E29DF0F2000800E56 /* AlertView.swift in Sources */,
 				27477C9629DD329000800E56 /* AnimalMarkerDetail.swift in Sources */,
