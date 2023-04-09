@@ -51,8 +51,8 @@ struct ActionSheetView: View {
     func getActionSheet() -> ActionSheet {
         
         let title = Text("원하는 옵션을 선택해주세요.")
-        let shareButton: ActionSheet.Button = .default(Text("공유"))
-        let reportButton: ActionSheet.Button = .destructive(Text("신고"))
+        let shareButton: ActionSheet.Button = .default(Text("방가온"))
+        let reportButton: ActionSheet.Button = .destructive(Text("이승화"))
         let deleteButton: ActionSheet.Button = .destructive(Text("게시물 삭제"))
         let cancleButton: ActionSheet.Button = .cancel()
         
