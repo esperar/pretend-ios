@@ -23,6 +23,7 @@
 		27477CA129DF857C00800E56 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477CA029DF857C00800E56 /* ActionSheetView.swift */; };
 		27477CA429DFE5B200800E56 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477CA329DFE5B200800E56 /* AnimationView.swift */; };
 		27477CA629E2FDF200800E56 /* AnimationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477CA529E2FDF200800E56 /* AnimationView2.swift */; };
+		27477CA829E4D08000800E56 /* AnimationView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477CA729E4D08000800E56 /* AnimationView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		27477CA029DF857C00800E56 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 		27477CA329DFE5B200800E56 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		27477CA529E2FDF200800E56 /* AnimationView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView2.swift; sourceTree = "<group>"; };
+		27477CA729E4D08000800E56 /* AnimationView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 			children = (
 				27477CA329DFE5B200800E56 /* AnimationView.swift */,
 				27477CA529E2FDF200800E56 /* AnimationView2.swift */,
+				27477CA729E4D08000800E56 /* AnimationView3.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27477C8D29DCEA0600800E56 /* SignContentView.swift in Sources */,
+				27477CA829E4D08000800E56 /* AnimationView3.swift in Sources */,
 				27477CA429DFE5B200800E56 /* AnimationView.swift in Sources */,
 				27477C9129DD055500800E56 /* StackContentView.swift in Sources */,
 				27477C9929DD37D500800E56 /* BindingView.swift in Sources */,
