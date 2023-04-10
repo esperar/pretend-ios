@@ -51,6 +51,38 @@ struct AnimationView3: View {
                 .animation(Animation.linear(duration: timing))
         }
         
+        VStack{
+            
+            Button("애니메이션") {
+                animate.toggle()
+            }
+            
+            RoundedRectangle(cornerRadius: 20)
+                .frame(width: animate ? 300 : 50, height: 100)
+                .overlay(
+                    Text("Spring")
+                        .font(animate ? .headline: .caption)
+                        .foregroundColor(Color.white)
+                        .animation(.none)
+                )
+                .animation(Animation.spring(
+                    response: 3.0,
+                    dampingFraction: 0.3,
+                    blendDuration: 1.0
+                ))
+            
+            RoundedRectangle(cornerRadius: 20)
+                .frame(width: animate ? 300 : 50, height: 100)
+                .overlay(
+                    Text("default")
+                        .font(animate ? .headline: .caption)
+                        .foregroundColor(Color.white)
+                )
+                .animation(Animation.default)
+            
+            
+        }
+        
     }
 }
 
