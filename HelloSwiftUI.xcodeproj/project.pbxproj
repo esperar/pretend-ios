@@ -24,6 +24,7 @@
 		27477CA429DFE5B200800E56 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477CA329DFE5B200800E56 /* AnimationView.swift */; };
 		27477CA629E2FDF200800E56 /* AnimationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477CA529E2FDF200800E56 /* AnimationView2.swift */; };
 		27477CA829E4D08000800E56 /* AnimationView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27477CA729E4D08000800E56 /* AnimationView3.swift */; };
+		278545202A28A0DA00241BCD /* DisclosureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785451F2A28A0DA00241BCD /* DisclosureView.swift */; };
 		27EE9ABF2A279A4D007877B6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE9ABE2A279A4D007877B6 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		27477CA329DFE5B200800E56 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		27477CA529E2FDF200800E56 /* AnimationView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView2.swift; sourceTree = "<group>"; };
 		27477CA729E4D08000800E56 /* AnimationView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView3.swift; sourceTree = "<group>"; };
+		2785451F2A28A0DA00241BCD /* DisclosureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureView.swift; sourceTree = "<group>"; };
 		27EE9ABE2A279A4D007877B6 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,6 +200,7 @@
 		27477C9B29DF0F0800800E56 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				2785451E2A28A0C700241BCD /* Disclosure */,
 				27EE9ABD2A279A34007877B6 /* Button */,
 				27477CA229DFE5A600800E56 /* Animation */,
 				27477C9F29DF856B00800E56 /* ActionSheet */,
@@ -230,6 +233,14 @@
 				27477CA729E4D08000800E56 /* AnimationView3.swift */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		2785451E2A28A0C700241BCD /* Disclosure */ = {
+			isa = PBXGroup;
+			children = (
+				2785451F2A28A0DA00241BCD /* DisclosureView.swift */,
+			);
+			path = Disclosure;
 			sourceTree = "<group>";
 		};
 		27EE9ABD2A279A34007877B6 /* Button */ = {
@@ -375,6 +386,7 @@
 				27477CA829E4D08000800E56 /* AnimationView3.swift in Sources */,
 				27477CA429DFE5B200800E56 /* AnimationView.swift in Sources */,
 				27477C9129DD055500800E56 /* StackContentView.swift in Sources */,
+				278545202A28A0DA00241BCD /* DisclosureView.swift in Sources */,
 				27477C9929DD37D500800E56 /* BindingView.swift in Sources */,
 				27477C9429DD109300800E56 /* AnimalMarkerView.swift in Sources */,
 				27477CA129DF857C00800E56 /* ActionSheetView.swift in Sources */,
